@@ -1,0 +1,7 @@
+artellapipe.dccs.houdini.core.toolbox module
+============================================
+
+.. automodule:: artellapipe.dccs.houdini.core.toolbox
+   :members:
+   :undoc-members:
+   :show-inheritance:

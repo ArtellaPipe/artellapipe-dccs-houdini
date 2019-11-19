@@ -1,0 +1,17 @@
+artellapipe.dccs.houdini.core package
+=====================================
+
+Submodules
+----------
+
+.. toctree::
+
+   artellapipe.dccs.houdini.core.toolbox
+
+Module contents
+---------------
+
+.. automodule:: artellapipe.dccs.houdini.core
+   :members:
+   :undoc-members:
+   :show-inheritance:
