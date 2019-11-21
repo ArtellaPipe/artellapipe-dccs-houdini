@@ -1,0 +1,7 @@
+artellapipe.dccs.houdini.managers.shelf module
+==============================================
+
+.. automodule:: artellapipe.dccs.houdini.managers.shelf
+   :members:
+   :undoc-members:
+   :show-inheritance:

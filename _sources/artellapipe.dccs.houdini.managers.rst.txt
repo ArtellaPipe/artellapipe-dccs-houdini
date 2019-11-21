@@ -1,0 +1,17 @@
+artellapipe.dccs.houdini.managers package
+=========================================
+
+Submodules
+----------
+
+.. toctree::
+
+   artellapipe.dccs.houdini.managers.shelf
+
+Module contents
+---------------
+
+.. automodule:: artellapipe.dccs.houdini.managers
+   :members:
+   :undoc-members:
+   :show-inheritance:
