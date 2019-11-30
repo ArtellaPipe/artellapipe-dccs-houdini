@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Module that defines package version for artellapipe-libs-houdini
+Module that defines package version for artellapipe-dccs-houdini
 """
 
 from __future__ import print_function, division, absolute_import
@@ -12,4 +12,4 @@ __license__ = "MIT"
 __maintainer__ = "Tomas Poveda"
 __email__ = "tpovedatd@gmail.com"
 
-__version__ = "0.0.3"
+__version__ = "0.0.4"
