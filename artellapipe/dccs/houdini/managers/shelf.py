@@ -18,7 +18,9 @@ from six import string_types
 
 import tpDccLib as tp
 from tpPyUtils import decorators
-from tpHoudiniLib.core import gui
+
+if tp.is_houdini():
+    from tpHoudiniLib.core import gui
 
 import artellapipe.register
 from artellapipe.managers import shelf as core_shelf
