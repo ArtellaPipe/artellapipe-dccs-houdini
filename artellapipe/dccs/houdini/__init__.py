@@ -10,7 +10,7 @@ import inspect
 import logging.config
 
 
-def init(do_reload=False):
+def init(do_reload=False, dev=False):
     """
     Initializes module
     """
@@ -20,8 +20,8 @@ def init(do_reload=False):
     from tpPyUtils import importer
 
     class ArtellaHoudiniDcc(importer.Importer, object):
-        def __init__(self):
-            super(ArtellaHoudiniDcc, self).__init__(module_name='artellapipe.dccs.houdini')
+        def __init__(self, debug=False):
+            super(ArtellaHoudiniDcc, self).__init__(module_name='artellapipe.dccs.houdini', debug=debug)
 
         def get_module_path(self):
             """
@@ -41,7 +41,7 @@ def init(do_reload=False):
 
     packages_order = []
 
-    artella_houdini_lib = importer.init_importer(importer_class=ArtellaHoudiniDcc, do_reload=False)
+    artella_houdini_lib = importer.init_importer(importer_class=ArtellaHoudiniDcc, do_reload=False, debug=dev)
     artella_houdini_lib.import_packages(order=packages_order, only_packages=False)
     if do_reload:
         artella_houdini_lib.reload_all()
