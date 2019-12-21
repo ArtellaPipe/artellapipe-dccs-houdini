@@ -11,4 +11,5 @@ class HoudiniToolBox(toolbox.ToolBox, object):
         super(HoudiniToolBox, self).__init__(project=project, parent=parent)
 
 
-artellapipe.register.register_class('ToolBox', HoudiniToolBox)
+if tp.is_houdini():
+    artellapipe.register.register_class('ToolBox', HoudiniToolBox)

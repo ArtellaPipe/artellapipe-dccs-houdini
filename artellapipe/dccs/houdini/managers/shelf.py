@@ -155,4 +155,5 @@ class ArtellaHoudiniShelfManagerSingleton(ArtellaHoudiniShelfManager, object):
         ArtellaHoudiniShelfManager.__init__(self)
 
 
-artellapipe.register.register_class('ShelfMgr', ArtellaHoudiniShelfManagerSingleton)
+if tp.is_houdini():
+    artellapipe.register.register_class('ShelfMgr', ArtellaHoudiniShelfManagerSingleton)
