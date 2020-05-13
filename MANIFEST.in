@@ -1,1 +1,3 @@
 include artellapipe/dccs/houdini/__logging__.ini
+include versioneer.py
+include artellapipe/dccs/houdini/_version.py
