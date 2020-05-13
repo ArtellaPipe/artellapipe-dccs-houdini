@@ -16,8 +16,8 @@ import logging
 
 from six import string_types
 
-import tpDccLib as tp
-from tpPyUtils import decorators
+import tpDcc as tp
+from tpDcc.libs.python import decorators
 
 if tp.is_houdini():
     from tpHoudiniLib.core import gui
